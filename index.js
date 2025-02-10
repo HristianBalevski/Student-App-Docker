@@ -9,7 +9,7 @@ const studentsController =
 
 let students = require("./models/students-model");
 
-studentsController.setup(app, );
+studentsController.setup(app, students);
 
 let port = process.argv[2];
 if (!port) port = process.env['PORT'];
