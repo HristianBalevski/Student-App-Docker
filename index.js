@@ -7,7 +7,7 @@ app.use(require('body-parser')
 const studentsController = 
   require("./controllers/students-controller");
 
-let students = require("./models/students-model");
+let students = require("./models/students-mode");
 
 studentsController.setup(app, students);
 
