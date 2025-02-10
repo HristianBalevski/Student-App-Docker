@@ -7,9 +7,9 @@ app.use(require('body-parser')
 const studentsController = 
   require("./controllers/students-controller");
 
-let students = require("./models/students-mode");
+let students = require("./models/students-model");
 
-studentsController.setup(app, students);
+studentsController.setup(app,);
 
 let port = process.argv[2];
 if (!port) port = process.env['PORT'];
