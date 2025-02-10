@@ -14,7 +14,7 @@ RUN npm install --production
 COPY . .
 
 # Експортиране на порта
-EXPOSE 3030
+EXPOSE 3031
 
 # Стартиране на приложението
 CMD ["npm", "start"]
