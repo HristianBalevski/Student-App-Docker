@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   app:
-    image: iloveoov/student-app-docker:latest
+    image: iloveoov/student-app-docker:${TAG}
     container_name: student-app
     restart: always
     ports:
